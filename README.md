@@ -1,1 +1,9 @@
-git clone https://replit.com/@AlexOprea5/Python-40?s=app
+git clone https://github.com/Aazbita/Zambi.git
+
+cd Zambi 
+
+git add .
+
+git commit -m "am adăugat coduri lungi"
+
+git push origin zambi 
