@@ -5,9 +5,9 @@ clear_screen() {
 }
 
 page_one() {
-    echo "Account Revolut"
+    echo "Ai ales pagina 1."
     echo -e "\e[93m+-----------+----------------------+"
-    echo "| Passowrd       | Email             |"
+    echo "| Nr.       | Descriere             |"
     echo "+-----------+----------------------+"
     echo "|  1        | Randul 1              |"
     echo "|  2        | Randul 2              |"
@@ -17,6 +17,16 @@ page_one() {
 
 page_two() {
     echo "Ai ales pagina 2."
+    echo -e "\e[43m\e[97m"
+    echo "╔══════════════════════════════════════╗"
+    echo "║              Meniu Pagina 2           ║"
+    echo "╠══════════════════════════════════════╣"
+    echo "║ [01] Opțiune 1                       ║"
+    echo "║ [02] Opțiune 2                       ║"
+    echo "║ [03] Opțiune 3                       ║"
+    echo "╚══════════════════════════════════════╝"
+    echo -e "\e[91mIP ADDRESS\e[0m"
+    echo -e "\e[0m"
 }
 
 design_text="
